@@ -6,7 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         ArrayList<Person> people = new ArrayList<>();
 
         //1) input 3 contacts:
