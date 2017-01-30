@@ -9,8 +9,10 @@ public class Person {
     String lastName;
     int age;
 
+
     //The full constructor
-    Person(String firstName, String lastName, int age) {
+   //alt + insert //(OSx cmd + N)
+    public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
@@ -18,7 +20,7 @@ public class Person {
 
     //The default constructor
     Person(){
-        firstName = IO.getString("Enter the persons name:");
+        firstName = IO.getString("Enter the person name:");
         this.lastName = IO.getString("Enter the last Name:");
         this.age = IO.getInt("Enter the age:");
     }
